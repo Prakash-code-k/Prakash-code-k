@@ -1,0 +1,39 @@
+<svg width="520" height="220" viewBox="0 0 520 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Terminal background -->
+  <rect width="520" height="220" rx="12" fill="#000000"/>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="520" height="50" rx="12" fill="#000000"/>
+  
+  <!-- Window buttons -->
+  <circle cx="28" cy="25" r="6" fill="#EF4444"/>
+  <circle cx="48" cy="25" r="6" fill="#EAB308"/>
+  <circle cx="68" cy="25" r="6" fill="#22C55E"/>
+
+  <!-- Bash text -->
+  <text x="455" y="30" fill="#FFFFFF" font-family="monospace" font-size="14">
+    bash
+  </text>
+
+  <!-- Terminal content -->
+  <text x="30" y="85" fill="#4ADE80" font-family="monospace" font-size="16">
+    $ npm install next
+  </text>
+
+  <text x="30" y="120" fill="#FFFFFF" font-family="monospace" font-size="16">
+    + next@10.2.3
+  </text>
+
+  <text x="30" y="155" fill="#FFFFFF" font-family="monospace" font-size="16">
+    added 1 package, and audited 2 packages in 3s
+  </text>
+
+  <text x="30" y="190" fill="#4ADE80" font-family="monospace" font-size="16">
+    $
+  </text>
+
+  <!-- Blinking cursor -->
+  <rect x="48" y="176" width="8" height="18" fill="#4ADE80">
+    <animate attributeName="opacity" values="1;1;0;0;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
